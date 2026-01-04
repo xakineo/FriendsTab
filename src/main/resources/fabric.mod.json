@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "friendstab",
+  "version": "1.0.0",
+  "name": "FriendsTab",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.friendstab.FriendsTabMod"
+    ]
+  },
+  "mixins": [
+    "friends_tab.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.21.4",
+    "fabricloader": ">=0.15.11",
+    "fabric": "*"
+  }
+}
